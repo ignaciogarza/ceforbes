@@ -69,3 +69,25 @@ header .container ul li a {
   text-align: justify;
   line-height: 2;
 }
+
+#mision {
+  background-color: #ee0e05;
+  color: white;
+  height: 80vh;
+  padding-top: 9em;
+}
+
+#mision .misionFrame {
+  width: 600px;
+  border: 4px solid white;
+  padding: 2em;
+}
+
+#mision .misionFrame h2 {
+  text-align: center;
+}
+
+#mision .misionFrame p {
+  line-height: 2;
+  text-align: justify;
+}
