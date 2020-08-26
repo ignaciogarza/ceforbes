@@ -17,7 +17,6 @@
     <header>
       <div class="container">
         <ul>
-          <li><a href="">logo</a></li>
           <li><a href="#quienes">¿ QUIÉNES SOMOS?</a></li>
           <li><a href="#mision">MISIÓN</a></li>
           <li><a href="#vision">VISIÓN</a></li>
@@ -27,8 +26,12 @@
       </div>
     </header>
 
+    <div id="logoCeforbes">
+      <img src="./img/logo_ceforbes_428px.png" alt="" />
+    </div>
+
     <div class="container-fluid" id="mainSection">
-      <div class="container">
+      <div class="container d-flex p-2 flex-row align-items-center">
         <div class="mainText">
           <h1>
             El Centro de Formación British English. Desde el 2009 es el
@@ -39,7 +42,22 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container mt-5 pt-5 text-center">
+      <h3 class="text-center">Regístrate a tu curso de ingles ahora</h3>
+      <a
+        href="http://eepurl.com/hbOMuz"
+        target="_blank"
+        class="btn btn-primary mt-5"
+      >
+        Inscríbete ya
+      </a>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="container" style="display: none">
       <div id="quienes">
         <h2>BRITISH COUNCIL MÉXICO</h2>
 
@@ -61,7 +79,7 @@
       </div>
     </div>
 
-    <div class="container-fluid" id="mision">
+    <div class="container-fluid bg-dark" id="mision" style="display: none">
       <div class="container">
         <div class="misionFrame">
           <h2>MISIÓN</h2>
@@ -77,7 +95,7 @@
       </div>
     </div>
 
-    <div class="container-fluid" id="vision">
+    <div class="container-fluid bg-primary" id="vision" style="display: none">
       <div class="container">
         <div class="visionFrame">
           <h2>VISIÓN</h2>
@@ -94,7 +112,11 @@
       </div>
     </div>
 
-    <div class="container-fluid" id="filosofia">
+    <div
+      class="container-fluid bg-secondary"
+      id="filosofia"
+      style="display: none"
+    >
       <div class="container">
         <div class="filosofiaFrame">
           <h2>FILOSOFÍA</h2>
@@ -109,7 +131,7 @@
       </div>
     </div>
 
-    <div id="servicios">
+    <div id="servicios" style="display: none">
       <h2>NUESTROS SERVICIOS</h2>
       <div class="row row-cols-1 row-cols-md-3">
         <!-- Card inicio -->
@@ -127,9 +149,7 @@
                 integral las 4 habilidades del idioma bajo la perspectiva de la
                 lingüística aplicada.
               </p>
-              <p>
-                Cada nivel se conforma de dos cursos de 60 hrs cada uno.
-              </p>
+              <p>Cada nivel se conforma de dos cursos de 60 hrs cada uno.</p>
             </div>
           </div>
         </div>
@@ -204,7 +224,7 @@
       </div>
     </div>
 
-    <div style="height: 200px;"></div>
+    <div style="height: 200px"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
