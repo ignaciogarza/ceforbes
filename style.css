@@ -69,30 +69,6 @@ header .container ul li a:hover {
   text-shadow: 2px 2px 3px #000000;
 }
 
-#quienes {
-  margin-top: 2em;
-  margin-bottom: 4em;
-  padding: 2em;
-}
-
-#quienes h2 {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
-  margin-top: 2em;
-  border-bottom: 3px solid white;
-  width: 400px;
-  padding-bottom: 0.5em;
-  color: white;
-}
-
-#quienes p {
-  text-align: justify;
-  line-height: 2;
-  color: white;
-}
-
 #mision {
   color: white;
   height: 80vh;
@@ -177,4 +153,20 @@ header .container ul li a:hover {
 
 #servicios .card-body {
   min-height: 380px;
+}
+
+.quienesSomos {
+  color: #c50b0b;
+}
+
+.quienesSomos h2 {
+  border-bottom: 1px solid #c50b0b;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.quienesSomos img {
+  width: 100%;
+  max-width: 500px;
 }
